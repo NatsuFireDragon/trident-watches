@@ -25,6 +25,12 @@
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    color: orangered;
+    border: 2px solid orangered;
   }
 
   /* Mobile Menu */
@@ -44,7 +50,12 @@
       position: absolute;
       top: 15px;
       right: 30px;
+      cursor: pointer;
   }
+
+  .side-menu .close-btn:hover {
+    color: orange;
+}
 
   .side-menu ul li a {
       padding: 8px 8px 20px 35px;
@@ -115,6 +126,15 @@
 
   header .menu-box .desktop-menu {
     display: none;
+  }
+
+  header .menu-box .desktop-menu li a,
+  header .menu-box .desktop-menu li a:visited {
+    color: #fff;
+  }
+  
+  header .menu-box .desktop-menu li a:hover {
+    color: orange;
   }
 
   header .grid-container nav .menu-box ul > li {
@@ -193,6 +213,7 @@
       align-self: end;
       color: orange;
       padding: 30px 20px;
+      cursor: pointer;
   }
 
   .choose-your-style .womens-bg {
@@ -281,6 +302,9 @@ footer .social-col ul li a {
   color: #ededed;
 }
 
+footer .social-col ul li a:hover {
+  color: orange;
+}
 
 
 

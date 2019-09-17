@@ -103,7 +103,7 @@
     transform: rotate(-90deg);
     color: orange;
     position: absolute;
-    top: 1px;
+    top: 4px;
     left: 49px;
   }
 
@@ -308,14 +308,18 @@ MEDIA QUERIES
   header {
     background: url(/img/splash-1.jpg) center center no-repeat;
   }
+
+  header .grid-container nav {
+    padding: 20px 30px;
+  }
  
   header .grid-container nav .logo-box {
     font-size: 1.5rem;
   }
 
   header .grid-container nav .logo-box .trident {
-    top: -2px;
-    left: 53px;
+    top: 0px;
+    left: 74px;
     font-size: 1.5rem;
   }
 
@@ -413,6 +417,12 @@ color: #ededed;
   @media (min-width: 768px){
 
     /* Header */
+    header .grid-container nav .logo-box .trident {
+      top: 0;
+      left: 73px;
+      font-size: 1.5rem;
+    }
+
     header .menu-box .desktop-menu {
       display: flex;
       padding-right: 50px;

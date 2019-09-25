@@ -102,28 +102,16 @@
     letter-spacing: .7rem;
   }
 
-  header .grid-container nav .logo-box .letter-i {
-    position: relative;
-    color: orange;
-  }
-
-  header .grid-container nav .logo-box .trident {
-    display: inline-block;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    color: orange;
-    position: absolute;
-    top: 4px;
-    left: 49px;
+  header .grid-container nav .logo-box svg {
+    width: 120px;
+    height: 50px;
   }
 
   header .menu-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 13px;
   }
 
   header .menu-box .desktop-menu {
@@ -357,14 +345,9 @@ MEDIA QUERIES
     padding: 20px 30px;
   }
  
-  header .grid-container nav .logo-box {
-    font-size: 1.5rem;
-  }
-
-  header .grid-container nav .logo-box .trident {
-    top: 0px;
-    left: 74px;
-    font-size: 1.5rem;
+  header .grid-container nav .logo-box svg {
+    width: 150px;
+    height: 50px;
   }
 
   header .grid-container nav .menu-box ul > li {
